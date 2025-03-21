@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
+    // Teknoloji veritabanı işlemleri için kullanılacak sınıf
+    
     public class TechnologyRepository : IRepository<Technology>
     {
         private List<Technology> _technologies = new List<Technology>();
